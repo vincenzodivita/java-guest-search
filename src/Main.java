@@ -9,7 +9,7 @@ public class Main {
         String[] guests = {"Irene", "Giancluca", "Andrea", "Vincenzo", "Gloria", "Giulia"};
 
         // Guest to find
-        String searchName = "Vincenzo";
+        String searchName = scanner.nextLine();
 
         // Initial search state
         boolean result = false;
@@ -25,6 +25,6 @@ public class Main {
         // Print Result
         System.out.println((result == true)
         ? searchName + " è tra gli invitati"
-        : searchName + " è tra gli invitati");
+        : searchName + " non è tra gli invitati");
     }
 }
