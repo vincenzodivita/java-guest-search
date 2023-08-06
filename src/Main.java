@@ -5,6 +5,7 @@ public class Main {
         // Define Scanner method
         Scanner scanner = new Scanner(System.in);
 
-        // Let's code!
+        // Guests list
+        String[] guests = {"Irene", "Giancluca", "Andrea", "Vincenzo", "Gloria", "Giulia"};
     }
 }
