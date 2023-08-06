@@ -27,5 +27,8 @@ public class Main {
         System.out.println((result == true)
         ? searchName + " è tra gli invitati."
         : searchName + " non è tra gli invitati.");
+
+        scanner.close();
     }
+
 }
