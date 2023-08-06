@@ -7,5 +7,12 @@ public class Main {
 
         // Guests list
         String[] guests = {"Irene", "Giancluca", "Andrea", "Vincenzo", "Gloria", "Giulia"};
+
+        // Print Result
+        for (String guest : guests) {
+
+            System.out.println(guest);
+            
+        }
     }
 }
